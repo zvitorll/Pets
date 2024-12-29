@@ -1,0 +1,19 @@
+{
+  "name": "pets",
+  "version": "1.0.0",
+  "description": "A site for login.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node index.js"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "uuid": "^11.0.3"
+  }
+}
