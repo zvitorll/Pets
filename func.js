@@ -1,10 +1,8 @@
-const fs = require('fs')
-document.getElementById("Loginbutton").onclick = function() {Loginclick()};
+var form = document.getElementById('conteudo');
 
-const write = ([data, filename]) => {
-}
+const Sen = document.getElementsByid('inputS').value;
+const CPF = document.getElementsByid('inputC').value;
 
-let CPFjs = document.getElementById("CPF").value;
-function Loginclick() {
-    console.log("Registrado")
+function Loginclick(CPFjs, Senjs) {
+    alert(CPFjs, Senjs);
 }
